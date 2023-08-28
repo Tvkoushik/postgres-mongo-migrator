@@ -1,0 +1,18 @@
+
+{
+  "postgresql": {
+    "host": "localhost",
+    "database": "postgres",
+    "user": "postgres",
+    "password": "sample",
+    "query": "SELECT * FROM public.employees",
+    "port": "5432"
+  },
+  "mongodb": {
+    "uri": "mongodb://localhost:27017",
+    "database": "local",
+    "collection": "sample"
+  },
+  "batch_size": 10,
+  "num_threads": 4
+}
